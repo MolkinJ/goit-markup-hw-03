@@ -92,6 +92,7 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 .logo-blue-footer {
   font-family: var(--second-family);
