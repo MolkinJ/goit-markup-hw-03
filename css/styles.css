@@ -141,6 +141,7 @@ section {
   margin: 0 auto;
   border: none;
   min-width: 169px;
+  border-radius: 4px;
 }
 .title-section {
   font-weight: 500;
@@ -305,4 +306,11 @@ a {
 }
 .team-list {
   background-color: var(--white);
+}
+.nav-list {
+  padding: 24px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
 }
