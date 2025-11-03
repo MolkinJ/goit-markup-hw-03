@@ -17,9 +17,15 @@
   background-color: #ffffff;
 }
 .header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  padding: 0 15px;
 }
 h1,
 h2,
@@ -37,10 +43,10 @@ section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  width: 1440px;
+  padding: 120px 156px;
 }
 .visually-hidden {
   position: absolute;
@@ -117,6 +123,11 @@ section {
   color: var(--white);
   background: var(--iris);
   cursor: pointer;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  display: block;
+  margin: 0 auto;
 }
 .title-section {
   font-weight: 500;
@@ -152,6 +163,18 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+}
+
+.team-list {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+}
+.portfolio-list {
+  border: 1px solid var(--cornflower);
+  width: 360px;
+  height: 420px;
 }
 
 li {
@@ -206,6 +229,9 @@ a {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 .nav:hover,
 .nav:focus {
@@ -219,7 +245,7 @@ a {
   color: var(--ocean);
 }
 
-.section1-list {
+.section-list {
   background-color: var(--white);
 }
 .footer {
