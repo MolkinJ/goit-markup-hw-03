@@ -17,8 +17,10 @@
   background-color: #ffffff;
 }
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 h1,
 h2,
 h3,
@@ -29,8 +31,29 @@ p,
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
-
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .logo {
   font-family: var(--second-family);
   font-weight: 700;
