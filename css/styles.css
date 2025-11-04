@@ -70,7 +70,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
   padding: 0 15px;
   width: 1158px;
 }
@@ -87,7 +86,6 @@ section {
   line-height: 1.17;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-blue {
@@ -99,7 +97,6 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
-  padding: 24px 0;
 }
 
 .menu {
@@ -117,7 +114,10 @@ section {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 24px 0;
+}
+.nav-item {
+  padding: 24px 24px;
+  display: block;
 }
 
 .nav:hover,
@@ -318,11 +318,24 @@ section {
   background-color: var(--navy-blue);
   padding: 100px 0;
 }
+.logo-footer {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+  line-height: 1.17;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .logo-blue-footer {
   color: var(--cloud);
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-description {
