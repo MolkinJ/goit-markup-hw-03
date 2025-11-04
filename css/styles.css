@@ -59,7 +59,7 @@ address {
 }
 
 section {
-  padding: 120px 0;
+  padding: 120px 120px;
 }
 
 .header {
@@ -71,6 +71,8 @@ section {
   align-items: center;
   justify-content: space-between;
   height: 72px;
+  padding: 0 15px;
+  width: 1158px;
 }
 
 .nav {
@@ -82,15 +84,25 @@ section {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  text-decoration: none;
+  line-height: 1.17;
   margin-right: 76px;
 }
 
 .logo-blue {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 
 .menu {
@@ -104,8 +116,10 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding: 24px 0;
-  display: block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .nav:hover,
@@ -117,11 +131,14 @@ section {
   font-style: normal;
 }
 .contacts {
+  font-family: var(--font-family);
   font-weight: 400;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.04em;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
+  text-decoration: none;
 }
 
 .contacts:hover,
