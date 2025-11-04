@@ -54,6 +54,7 @@ section {
   justify-content: space-between;
   height: 72px;
   padding: 0 15px;
+  width: 1158px;
 }
 .features-list {
   display: flex;
@@ -125,9 +126,9 @@ section {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--white);
   max-width: 496px;
+  text-align: center;
 }
 .hero-button {
   font-family: var(--font-family);
@@ -175,6 +176,8 @@ section {
 .list-team {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .list-portfolio {
   display: flex;
@@ -203,12 +206,11 @@ section {
   padding: 0px 0px 32px;
   width: 264px;
   height: 380px;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-info {
   padding: 32px 0;
 }
+
 .member-list {
   padding: 32px 0;
 }
@@ -320,7 +322,7 @@ a {
   background-color: var(--ocean);
 }
 .hero-button:focus {
-  background-color: var(--ocean); /* Додано */
+  background-color: var(--ocean);
 }
 .team {
   background-color: var(--cloud);
