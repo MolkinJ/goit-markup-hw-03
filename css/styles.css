@@ -207,6 +207,10 @@ section {
   gap: 24px;
 }
 
+.features {
+  padding: 120px 0;
+}
+
 .section-list {
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -275,6 +279,10 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .list-portfolio {
