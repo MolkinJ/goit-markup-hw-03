@@ -120,8 +120,8 @@ section {
   display: block;
 }
 
-.nav:hover,
-.nav:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--ocean);
 }
 
