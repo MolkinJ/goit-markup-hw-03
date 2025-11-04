@@ -78,6 +78,7 @@ section {
 .nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo {
@@ -91,6 +92,8 @@ section {
   text-decoration: none;
   line-height: 1.17;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-blue {
@@ -226,6 +229,7 @@ section {
 
 .team {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 .main-title-section {
   font-weight: 700;
@@ -239,6 +243,8 @@ section {
 }
 
 .list-team {
+  display: flex;
+  gap: 24px;
   display: flex;
   gap: 24px;
 }
@@ -276,6 +282,7 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-list {
